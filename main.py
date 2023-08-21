@@ -152,7 +152,6 @@ while True:
         anglex = pid_controlx(center[0], setpointX)
         angley = pid_controly(center[1], setpointY)
 
-
         if anglex > 10:
             anglex = 10
         elif anglex < -10:
